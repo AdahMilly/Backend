@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using TraineeDemo.Models;
+using Trainees.Models;
 
 namespace TraineeDemo.Controllers
 {
@@ -23,9 +25,9 @@ namespace TraineeDemo.Controllers
         {
             new Trainee()
             {
-                Name="Gordon",
-                Email="gordon@gmail.com",
-                PhoneNumber="012345678"
+                Name="Em",
+                Email="em@gmail.com",
+                PhoneNumber="1234567891"
             }
         };
 
